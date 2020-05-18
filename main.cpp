@@ -26,11 +26,11 @@ int main()
     double x_at_ymax{(v0to2*sinth*costh)/g};
     cout<< "Distance reached at the maximum height is:"<< x_at_ymax<< '\n';
     double t_at_ymax{(v0*sinth)/g};
-    cout<< "Time, wherein the object reaches maximum height:"<< t_at_ymax<< '\n';
+    cout<< "Time, when the object reaches maximum height:"<< t_at_ymax<< '\n';
     double xmax{(2*v0to2*sinth*costh)/g};
     cout<< "Maximum distance is:"<< xmax<< '\n';
     double t_at_xmax{(2*v0*sinth)/g};
-    cout<< "Time, wherein the object reaches maximum distance:"<< t_at_xmax<< '\n';
+    cout<< "Time, when the object reaches maximum distance:"<< t_at_xmax<< '\n';
     
 
     return 0;
